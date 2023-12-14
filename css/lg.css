@@ -203,6 +203,7 @@ header .Trade {
 
 .features .big-container .container {
     width: fit-content;
+    overflow: hidden;
 }
 
 .features .big-container .container svg {
@@ -403,6 +404,7 @@ header .Trade {
 }
 
 .signup form label #login::placeholder {
+    width: fit-content;
     color: #FFF;
     text-align: center;
     font-feature-settings: 'clig' off, 'liga' off;

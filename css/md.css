@@ -249,6 +249,7 @@ header #open-menu {
     width: fit-content;
     display: flex;
     flex-flow: column nowrap;
+    overflow: hidden;
 }
 
 .features .big-container .container svg {
@@ -436,7 +437,7 @@ header #open-menu {
 
 
 .signup form label {
-    width: fit-content;
+    width: 100%;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -445,15 +446,16 @@ header #open-menu {
 }
 
 .signup form label #login {
+    width: 100%;
     border-radius: 37px;
     border: 2px solid #FFF;
     background: transparent;
-    padding: 28px 380px 28px 20px;
+    padding: 28px 150px 28px 20px;
 }
 
 .signup form label #login::placeholder {
     color: #FFF;
-    text-align: center;
+    text-align: start;
     font-feature-settings: 'clig' off, 'liga' off;
     font-family: Inter, sans-serif;
     font-size: 15px;
