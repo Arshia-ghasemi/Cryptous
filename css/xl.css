@@ -10,7 +10,7 @@ header, .banner {
 }
 
 
-header .logo {
+header .logo a {
     display: flex;
     align-items: center;
 }

@@ -10,7 +10,7 @@ header, .banner {
 }
 
 
-header .logo {
+header .logo a{
     display: flex;
     align-items: center;
 }
@@ -21,7 +21,7 @@ header .logo .title {
     font-size: 24px;
     font-style: normal;
     font-weight: 700;
-    line-height: 24px; /* 100% */
+
 }
 
 header .menu .menu-nav {
