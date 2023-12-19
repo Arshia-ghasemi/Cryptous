@@ -93,6 +93,7 @@ header .Trade {
 header #open-menu {
     background: transparent;
     fill: #FFFFFF;
+    border: none;
 }
 
 /*banner*/
